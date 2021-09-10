@@ -3,10 +3,10 @@ variable is the name of the storage location.
 
 
 ## var
-Define var and why do we use this variable.
+The var keyword is used to define global variables:
 * In var you can redeclare the variable (you may change the variable later)
 * You can access var globally.(we do not use this variable at Pragma).
-* Variables with var can be reassigned and redeclared
+* Variables with var can be reassigned and redeclared.
 
 
 Sample code of var.
@@ -19,14 +19,12 @@ Sample code of var.
     
     ```
 
-
 ## const
-Define const and why do we use this variable.
+The const keyword is used define constant variables:
 
-* variables with const cannot be reassigned and redeclare
-* Variables with const consist of block scope
+* variables with const cannot be reassigned and redeclare.
+* Variables with const consist of block scope.
 * Although const does not allow you to redeclare or reassign the variable, you can change the elements of const array.
-
 
 Sample code of const
  * Example 1
@@ -40,23 +38,21 @@ Sample code of const
     
     ```
 ## let
-Define let and why do we use this variable.
-* variables with let can not be redeclared 
-* let variables must be declared before the block code or use
-* let consist of block scope
-* let allows you to change the variable at a later stage
-
-
+The let keyword is used define let variables:
+* variables with let can not be redeclared .
+* let variables must be declared before the block code or use.
+* let consist of block scope.
+* let allows you to change the variable at a later stage.
 
 Sample code of let
   * Example 1 
     ```javascript
     
-    let x = 4;    //Declaring and assigning x
+    let number = 4;    //Declaring and assigning x
       {
-       x = 3;     //Assigning variable x(this means that the variable x will now change to 3)
+       number = 3;     //Assigning variable x(this means that the variable x will now change to 3)
       }
-      console.log(x);
+      console.log(number);
      
     ```
 
