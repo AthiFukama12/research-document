@@ -17,8 +17,7 @@
   // code here can also use carName
   }
     ```
-    
-
+  
 ### Functional scope
  * functional means a  function is available
  * Variables declared inside the function are not visible or accessed outside the function.
@@ -34,30 +33,28 @@
       Employee(employeeName);                       //Takes value of employeeName (outside function).
       console.log("Employee name", employeeName);   //Displays employeeName on console
       ```
-
-
+   
 ### Block scope
-Declaring a variable inside and outside  the curly brackets
-* Variable  inside the curly brackets can not be accessed outside the  block
-* let and const are default of block scope(which means let and const contains block scope)
+Declaring a variable inside and outside  the curly brackets.
+* Variable  inside the curly brackets can not be accessed outside the  block.
+* let and const are default of block scope(which means let and const contains block scope).
   * Example 1
-    * This code below will execute the error message "x is not defined"(because the variable is inside the {})
+    * This code below will execute the error message "x is not defined"(because the variable is inside the {}).
     ```javascript
     {
-      let x = 2;
+      let number = 2;
     }
-    console.log(x);
-    // x can NOT be used here()
+    console.log(number);
+    // number can NOT be used here()
     
     ```
-    
-
-* This code below will execute 3 because variable x = 3 is declared outside curly brackets
+  
+* This code below will execute 3 because variable x = 3 is declared outside curly brackets.
   * Example 2 
     ```javascript  
-    let x = 3
+    let number = 3
     {
-    let x = 1; 
+    let number = 1; 
     }
-    console.log(x);
+    console.log(number);
     ```
