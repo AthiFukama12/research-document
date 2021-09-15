@@ -1,6 +1,6 @@
 # Loops
 * Looping in programming  languages is a feature which facilitates the execution of a set of instructions/functions repeatedly while some condition evaluates to true. 
-##The For Of Loop
+## The For Of Loop
 * The JavaScript for of statement loops through the value of an iterable object.
 * It let you loop over iterable data structures such as arrays,strings,set, map and more:
 ### Syntax
