@@ -1,16 +1,17 @@
 # Arrow Functions
-## Arrow function
+
 * Arrow functions allow us to write shorter function syntax.
-* You can not use arrow function in a constructor
+* You cannot use arrow function in a constructor
 * They cannot be called with the new keyword. Doing that throws an error indicating that the function is not a constructor.
 
 
 ```javascript
-    var hello;             //Declaring variable
+    //Declaring variable
+    var hello;             
     
-    //Remove the word "function" and place arrow between the argument and opening body bracket
+    //Remove the word "function" and place arrow between the argument and opening body bracket.
     hello = () =>{
-      console.log('Hello');
+        console.log('Hello');
     }
     hello();
 ```
@@ -18,20 +19,24 @@
 
     let firstname;
     let  lastname;
-    function person(firstname,lastname){    //Takes two String parameters.
     
-        console.log(firstname + lastname)  //prints the values on the console.
+    //Takes two String parameters.
+    function person(firstname,lastname){
+        //Prints the values on the console.
+        console.log(firstname + lastname)  
     
     }
-    person('Athi ', 'Fukama');             //passes two parameters to the person() function.
+    //Passes two parameters to the person() function.
+    person('Athi ', 'Fukama');             
 ```
 
 ```javascript
     //Remove the word "function" and place arrow between the argument and opening body bracket
     const speak = () =>{
     console.log("good day");
-    };                         //when we use function expression,you put semicolon at the end of the function
-    speak();                   //Calling the function
+    };
+    //Calling the function
+    speak();                   
 ```
 
 ## Normal function
@@ -41,14 +46,16 @@
     function greet(){
         console.log("hello world");
     }
-    greet();                          //Calling the function
+    //Calling the function
+    greet();                          
 
 ```
 
 ```javascript
-    //function expression
+    //Function expression
     const speak = function(){
     console.log("good day");
-    };                         //when we use function expression,you put semicolon at the end of the function
-    speak();                   //Calling the function
+    };
+    //Calling the function
+    speak();                   
 ```

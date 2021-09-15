@@ -13,43 +13,48 @@ for (variable of iterable) {
 * **Variable** - For every iteration the value of the next property is assigned to the variable.Variable can be declared with const, let or var.
 * **Iterable** - An object that has iterable properties.The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for... of construct.
 ### Examples
+
 * Iterating over an Array.
 ```javascript
+    //Declaring an array
     const array = [10,30,60];
-    
-    for (const value of array){
+
+    //Looping through the values of array.
+    for (const value of array){   
         console.log(value);
     }
 ```
-* Iterating over a String
 
+* Iterating over a String.
 ```javascript
-    const iterable = "Athi"
-    
-    for (const value of iterable) {
+    //Declaring variable name.
+    const name = "Athi"
+
+    //Looping through the values of name.
+    for (const value of name) {  
       console.log(value);
-      
     }
 ```
-* Iterating over a Set
 
+* Iterating over a Set.
 ```javascript
-    const iterable = new Set([1, 1, 2, 2, 3, 3, 4, 4]);
-    
-    for (const value of iterable) {
+    //Declaring a set of numbers
+    const numbers = new Set([1, 1, 2, 2, 3, 3, 4, 4]);
+
+    //Looping through the values of numbers
+    for (const value of numbers) {                      
       console.log(value);
-      
     }
 ```
-* Iterating over a map
+
+* Iterating over a Map.
 ```javascript
-    const iterable = new Map([['a', 1], ['b', 2], ['c', 3]]);
-    
-    for (const value of iterable) {
+    //Declaring  alphabets with values
+    const alphabetMap = new Map([['a', 1], ['b', 2], ['c', 3]]);   
+
+    //Looping through the values of alphabetMap.
+    for (const value of alphabetMap) {                            
       console.log(value);
-      
     }
-    for (const [key, value] of iterable) {
-        console.log(value);
-    }
+    
 ```
