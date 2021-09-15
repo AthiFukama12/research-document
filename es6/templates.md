@@ -1,6 +1,6 @@
 # Template literals
 * Template literals uses back-ticks (``) to define a string.
-* **Example 1**
+  * **Example 1**
 
 ```javascript
   let text = `Hello world!`;

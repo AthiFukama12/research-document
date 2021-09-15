@@ -37,7 +37,7 @@ The let keyword is used to define let variables:
 * Let consist of block scope.
 * Let allows you to change the variable at a later stage.
 
-* **Example 3** 
+  * **Example 3** 
 ```javascript
   //Declaring and assigning number
   let number = 4;    
