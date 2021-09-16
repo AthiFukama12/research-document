@@ -88,11 +88,11 @@
 ```
 
 ```javascript
-  let p1 = 5;
-  let p2 = 7;
+  let num1 = 5;
+  let num2 = 7;
   
   const btn = document.querySelector("#btn")
-  myFunction(p1, p2);
+  myFunction(num1, num2);
   
   function myFunction(a, b) {
   console.log(a*b);
