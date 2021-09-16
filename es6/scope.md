@@ -43,7 +43,7 @@
 * Declaring a variable inside and outside  the curly brackets.
 * Variable  inside the curly brackets cannot be accessed outside the  block.
 * Let and const are default of block scope(which means let and const contains block scope).
-* This code below will execute the error message "num2 is not defined"(because the variable is inside the {}).
+* This code below will execute the error message "num2 is not defined" (because the variable is inside the {}).
   * **Example 3**
   
 ```javascript
@@ -55,7 +55,7 @@
     console.log(num1);
 ```
   
-* This code below will execute 3 because variable num = 3 because 3 is declared outside curly brackets.
+* This code below will execute 3 because variable num1 = 3 because 3 is declared outside curly brackets.
   * **Example 4** 
 
 ```javascript

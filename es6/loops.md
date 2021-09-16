@@ -10,17 +10,17 @@
         // code block to be executed
     }
 ```
-* **Variable** - For every iteration the value of the next property is assigned to the variable.Variable can be declared with const, let or var.
-* **Iterable** - An object that has iterable properties.The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for... of construct.
+* **Variable** - For every iteration the value of the next property is assigned to the variable. Variable can be declared with const, let or var.
+* **Iterable** - An object that has iterable properties. The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for... of construct.
 ### Examples
 
 * Iterating over an Array.
 ```javascript
-    //Declaring an array
+    //Declaring an array.
     const array = [10,30,60];
     
     /**
-    * This function console log
+    * This function console log.
     * @param {number} - value of the array.
     */
     for (const value of array){   

@@ -16,12 +16,12 @@ The var keyword is used to define global variables:
   
   console.log(greet)
 ```
-###The difference between local and global variables.
+### The difference between local and global variables.
 * **Local variables** - A local variable is only visible inside the block or body of the function.
   * **Example 2** 
 ```javascript
   function colour(){
-  //Local variable    
+  //Local variable.    
   var colourname = "Orange";
     console.log(colourname);
   }

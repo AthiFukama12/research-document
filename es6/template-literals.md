@@ -49,7 +49,6 @@
   let price = 20.00;
   let tax = 0.25;
   
-  
   let total = `The total price is ${price *tax}`;
   console.log(total);
 ```

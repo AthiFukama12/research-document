@@ -20,7 +20,7 @@
 ```javascript
 
     let firstname;
-    let  lastname;
+    let lastname;
     
     /**
      * This function console log

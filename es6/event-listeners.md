@@ -2,14 +2,14 @@
 
 ## What is an event?
 * Javascript's interaction with HTML is handled through events that occur when the user or the browser manipulates the page.
-* When the page loads, it is called an event.When the user clicks a button,that click too is an event.
+* When the page loads, it is called an event. When the user clicks a button, that click too is an event.
  
 ## Add event listener() method
 * The addEventListener() method attaches an event handler to the specified element.
 * The addEventListener() method attaches an event handler to an element without overwriting existing event handlers.
 * You can add many event handlers to one element.
 * You can add event handlers of the same type to one element.
-* You can add event listeners to any DOM (Document Object Model),not only HTML elements.
+* You can add event listeners to any DOM (Document Object Model), not only HTML elements.
 * The addEventListener() makes it easier to control how the events reacts on bubbling.
 * When using addEventListener() method, the JavaScript is separated from the HTML markup, for better readability and allows you to add even listeners even when you do not control the HTML markup.
 * You can easily remove the event listener by using removeEventListener() method.
