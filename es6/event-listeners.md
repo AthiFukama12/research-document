@@ -3,7 +3,7 @@
 ## What is an event?
 * Javascript's interaction with HTML is handled through events that occur when the user or the browser manipulates the page.
 * When the page loads, it is called an event.When the user clicks a button,that click too is an event.
-
+ 
 ## Add event listener() method
 * The addEventListener() method attaches an event handler to the specified element.
 * The addEventListener() method attaches an event handler to an element without overwriting existing event handlers.
@@ -11,7 +11,7 @@
 * You can add event handlers of the same type to one element.
 * You can add event listeners to any DOM (Document Object Model),not only HTML elements.
 * The addEventListener() makes it easier to control how the events reacts on bubbling.
-* When using addEventListener() method,the JavaScript is separated from the HTML markup, for better readability and allows you to add even listeners even when you do not control the HTML markup.
+* When using addEventListener() method, the JavaScript is separated from the HTML markup, for better readability and allows you to add even listeners even when you do not control the HTML markup.
 * You can easily remove the event listener by using removeEventListener() method.
 * Add an event listener that fires when the user clicks on a button.
 
@@ -24,12 +24,13 @@
 ```
 
 ```javascript
-    const btn = document.querySelector("#btn")
-    
-    function display(){
-    alert("Hello World!");
-    }
-    btn.addEventListener("click", display);
+  const btn = document.querySelector("#btn")
+  
+  //Calling a function and display an alert message.
+  function display(){
+  alert("Hello World!");
+  }
+  btn.addEventListener("click", display);
 ```
      
 * **Example 2**
@@ -40,7 +41,10 @@
 ```
 
 ```javascript
+
   const myBtn = document.querySelector("#btn");
+
+  //Adding event listener to the button.
   myBtn.addEventListener("click", myFunction);
   myBtn.addEventListener("click", someOtherFunction);
   
@@ -61,21 +65,27 @@
 ```
 
 ```javascript
-  const myBtn = document.getElementById("btn");
+  const myBtn = document.querySelector("button");
+  
   myBtn.addEventListener("mouseover", myFunction);
   myBtn.addEventListener("click", mySecondFunction);
   myBtn.addEventListener("mouseout", myThirdFunction);
   
-  function myFunction() {
-  document.getElementById("demo").innerHTML += "Moused over!<br>";
+  //Calling the function.
+  function myFunction(){
+  const container = document.querySelector("#demo");
+  container.innerHTML += "Mouse over!<br>"
   }
   
-  function mySecondFunction() {
-  document.getElementById("demo").innerHTML += "Clicked!<br>";
+  function mySecondFunction(){
+  const container = document.querySelector("#demo");
+  container.innerHTML += "Clicked!<br>"
   }
   
-  function myThirdFunction() {
-  document.getElementById("demo").innerHTML += "Moused out!<br>";
+  function myThirdFunction(){
+  const container = document.querySelector("#demo");
+  container.innerHTML += "Mouse out!<br>"
+  
   }
 ```
 
@@ -94,6 +104,7 @@
   const btn = document.querySelector("#btn")
   myFunction(num1, num2);
   
+  //Calling the function with two parameters.
   function myFunction(a, b) {
   console.log(a*b);
   }

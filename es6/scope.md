@@ -1,6 +1,6 @@
 # Scope
-* Scope means available.A variable defined inside a scope is accessible only within that scope,but inaccessible outside.
-* In JavaScript,scopes are created by code blocks and functions.
+* Scope means available. A variable defined inside a scope is accessible only within that scope,but inaccessible outside.
+* In JavaScript, scopes are created by code blocks and functions.
 
 ## Three different types of scope
 
@@ -26,16 +26,16 @@
    * **Example 2**
   
 ```javascript
-  //Declaring and assigning variable employeeName .
+  //Declaring and assigning variable employeeName.
   let employeeName = "Ace"; 
   employeeName = "Athi";
   //This function takes one parameter called value.
-  function Employee(value){
+  function employee(value){
   //Displays value of function on the console.
     console.log( "Employee name: ", value); 
   }
   //Takes value of employeeName (outside function).
-  Employee(employeeName);                      
+  employee(employeeName);                      
   console.log("Employee name", employeeName);   
 ```
    
@@ -43,25 +43,28 @@
 * Declaring a variable inside and outside  the curly brackets.
 * Variable  inside the curly brackets cannot be accessed outside the  block.
 * Let and const are default of block scope(which means let and const contains block scope).
-* This code below will execute the error message "number is not defined"(because the variable is inside the {}).
+* This code below will execute the error message "num2 is not defined"(because the variable is inside the {}).
   * **Example 3**
   
 ```javascript
-  {
-  let number = 2;
-  }
-  console.log(number);
-  // number can NOT be used here()
+
+    if (num1 == 1) {
+        let num2 = 2;
+    }
+    //Num1 is not defined.
+    console.log(num1);
 ```
   
-* This code below will execute 3 because variable number = 3 is declared outside curly brackets.
+* This code below will execute 3 because variable num = 3 because 3 is declared outside curly brackets.
   * **Example 4** 
 
 ```javascript
-  let number = 3
-  {
-    let number = 1; 
-  }
-  console.log(number);
+    let num1 = 3
+    
+    if(num1 == 3) {
+        let num1 = 1;
+    }
+    //Output of 3 is expected.
+    console.log(num1);   
 ```
  
