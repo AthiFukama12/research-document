@@ -37,10 +37,10 @@
 ```
 
 ```javascript
-    //Remove the word "function" and place arrow between the argument and opening body bracket
+    //Remove the word "function" and place arrow between the argument and opening body bracket.
     const speak = () =>{
         console.log("good day");
     };
-    //Calling the function
+    //Calling the function.
     speak();                   
 ```
