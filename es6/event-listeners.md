@@ -28,7 +28,7 @@
   
   //Calling a function and display an alert message.
   function display(){
-  alert("Hello World!");
+    alert("Hello World!");
   }
   btn.addEventListener("click", display);
 ```
@@ -49,11 +49,11 @@
   myBtn.addEventListener("click", someOtherFunction);
   
   function myFunction() {
-  alert ("Hello World!");
+     alert ("Hello World!");
   }
   
   function someOtherFunction() {
-  alert ("This function was also executed!");
+    alert ("This function was also executed!");
   }
 ```
 
@@ -73,18 +73,18 @@
   
   //Calling the function.
   function myFunction(){
-  const container = document.querySelector("#demo");
-  container.innerHTML += "Mouse over!<br>"
+    const container = document.querySelector("#demo");
+    container.innerHTML += "Mouse over!<br>"
   }
   
   function mySecondFunction(){
-  const container = document.querySelector("#demo");
-  container.innerHTML += "Clicked!<br>"
+    const container = document.querySelector("#demo");
+    container.innerHTML += "Clicked!<br>"
   }
   
   function myThirdFunction(){
-  const container = document.querySelector("#demo");
-  container.innerHTML += "Mouse out!<br>"
+    const container = document.querySelector("#demo");
+    container.innerHTML += "Mouse out!<br>"
   
   }
 ```
@@ -106,7 +106,7 @@
   
   //Calling the function with two parameters.
   function myFunction(a, b) {
-  console.log(a*b);
+   console.log(a*b);
   }
   btn.addEventListener("click", myFunction);
 ```
